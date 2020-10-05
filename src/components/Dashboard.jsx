@@ -33,9 +33,9 @@ function Dashboard() {
             <Row>
               <Col sm={6}>
                 <ListGroup defaultActiveKey="#link1">
-                  <ListGroup.Item action variant="secondary">
+                  <div action variant="secondary">
                     To Do List
-                  </ListGroup.Item>
+                  </div>
                   <ListGroup.Item action href="#link2" disabled>
                     <div
                       style={{
