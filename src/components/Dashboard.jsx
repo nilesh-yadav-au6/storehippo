@@ -169,7 +169,7 @@ function Dashboard() {
               </Col>
             </Row>
             <Row>
-              <Col sm={8}>
+              <Col sm={6}>
               <ListGroup defaultActiveKey="#link1">
               <div action variant="secondary" style={{height:"3rem" , backgroundColor:"lightgrey"}}>
                     <p style={{margin:"1rem 2rem"}}>Order Summary</p>
