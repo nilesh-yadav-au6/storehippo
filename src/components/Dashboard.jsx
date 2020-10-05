@@ -29,9 +29,9 @@ function Dashboard() {
               </div>
             </div>
           </div>
-          <Container fluid className="container">
+          <Container className="container">
             <Row>
-              <Col sm={4}>
+              <Col sm={6}>
                 <ListGroup defaultActiveKey="#link1">
                   <ListGroup.Item action variant="secondary">
                     To Do List
@@ -148,7 +148,7 @@ function Dashboard() {
                   </ListGroup.Item>
                 </ListGroup>
               </Col>
-              <Col sm={4}>
+              <Col sm={6}>
                 <ListGroup defaultActiveKey="#link1">
                   <ListGroup.Item action variant="secondary">
                     Statistics
