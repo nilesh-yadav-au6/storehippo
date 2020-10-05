@@ -33,8 +33,8 @@ function Dashboard() {
             <Row>
               <Col sm={6}>
                 <ListGroup defaultActiveKey="#link1">
-                  <div action variant="secondary">
-                    To Do List
+                  <div action variant="secondary" style={{height:"3rem" , backgroundColor:"lightgrey"}}>
+                    <p style={{margin:"1rem 2rem"}}>To Do List</p>
                   </div>
                   <ListGroup.Item action href="#link2" disabled>
                     <div
@@ -150,9 +150,9 @@ function Dashboard() {
               </Col>
               <Col sm={6}>
                 <ListGroup defaultActiveKey="#link1">
-                  <ListGroup.Item action variant="secondary">
-                    Statistics
-                  </ListGroup.Item>
+                <div action variant="secondary" style={{height:"3rem" , backgroundColor:"lightgrey"}}>
+                    <p style={{margin:"1rem 2rem"}}>Statistics</p>
+                  </div>
                   <Carousel >
                     <Carousel.Item className="car-item" style={{color:"green"}}>
                      <span>BY STATUS</span>
@@ -171,9 +171,9 @@ function Dashboard() {
             <Row>
               <Col sm>
               <ListGroup defaultActiveKey="#link1">
-                  <ListGroup.Item action variant="secondary">
-                    Order Summary
-                  </ListGroup.Item>
+              <div action variant="secondary" style={{height:"3rem" , backgroundColor:"lightgrey"}}>
+                    <p style={{margin:"1rem 2rem"}}>Order Summary</p>
+                  </div>
                   <ListGroup.Item action style={{display:"flex" ,flexWrap:"wrap" , justifyContent:"space-around"}}>
                   <div class="box" >
                       <p style={{textAlign:"center" ,marginTop:"3rem"}}>Products</p>
